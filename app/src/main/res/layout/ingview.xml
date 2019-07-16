@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_weight="1" android:background="@drawable/background">
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_weight="5" android:background="@drawable/background2">
+        <Button
+                android:text="드론 호출"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/button"
+                android:background="@drawable/button_background"
+                style="@style/Widget.AppCompat.Button" android:textStyle="bold"
+                android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+</LinearLayout>
